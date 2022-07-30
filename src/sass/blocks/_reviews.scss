@@ -1,0 +1,30 @@
+.reviews {
+    &__item {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        &:nth-child(4) {
+            margin-bottom: 50px;
+        }
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        color: $text-color;
+    }
+    &__count {
+        color: #646464;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    &__descr {
+        width: 676px;
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: $text-color;
+    }
+}
+    
